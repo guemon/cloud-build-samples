@@ -28,5 +28,5 @@ steps:
   - name: gcr.io/cloud-builders/docker
     args:
       - inspect
-      - step_2
+      - step_3
 # [END cloudbuild_quickstart_automate]
