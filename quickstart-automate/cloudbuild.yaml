@@ -22,5 +22,7 @@ steps:
       echo "Hello World"|
       pwd
       ls -la
-
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - ps
 # [END cloudbuild_quickstart_automate]
